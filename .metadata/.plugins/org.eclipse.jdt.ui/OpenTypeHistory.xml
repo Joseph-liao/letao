@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=letao-manager-service/src\/main\/java&lt;com.letao.service{ItemService.java[ItemService" modifiers="513" timestamp="1491112645918"/>
+<typeInfo handle="=letao-manager-service/src\/main\/java&lt;com.letao.service{ItemCatService.java[ItemCatService" modifiers="513" timestamp="1491825908312"/>
+<typeInfo handle="=letao-manager-service/src\/main\/java&lt;com.letao.service{PictureService.java[PictureService" modifiers="513" timestamp="1490856811165"/>
+<typeInfo handle="=letao-manager-web/C:\/Users\/Jospe\/.m2\/repository\/commons-fileupload\/commons-fileupload\/1.3.2\/commons-fileupload-1.3.2.jar&lt;org.apache.commons.fileupload(FileItemFactory.class[FileItemFactory" modifiers="1537" timestamp="1490716354379"/>
+<typeInfo handle="=letao-manager-service/src\/main\/java&lt;com.letao.service{ItemParamService.java[ItemParamService" modifiers="513" timestamp="1491143081199"/>
+<typeInfo handle="=letao-manager-service/src\/main\/java&lt;com.letao.service{ItemParamItemService.java[ItemParamItemService" modifiers="513" timestamp="1491129663943"/>
+<typeInfo handle="=generatorSqlmapCustom/src&lt;com.letao.mapper{TbItemMapper.java[TbItemMapper" modifiers="513" timestamp="1489592112548"/>
+<typeInfo handle="=letao-rest/src\/main\/java&lt;com.letao.rest.service{ItemCatService.java[ItemCatService" modifiers="513" timestamp="1491620178715"/>
+<typeInfo handle="=letao-manager-service/src\/main\/java&lt;com.letao.service{ContentCategoryService.java[ContentCategoryService" modifiers="513" timestamp="1491667881164"/>
+<typeInfo handle="=generatorSqlmapCustom/src&lt;com.letao.mapper{TbContentMapper.java[TbContentMapper" modifiers="513" timestamp="1489592112484"/>
+<typeInfo handle="=letao-manager-mapper/src\/main\/java&lt;com.letao.mapper{TbContentMapper.java[TbContentMapper" modifiers="513" timestamp="1489592112484"/>
+<typeInfo handle="=letao-manager-service/src\/main\/java&lt;com.letao.service{ContentService.java[ContentService" modifiers="513" timestamp="1492181778897"/>
+<typeInfo handle="=letao-rest/src\/main\/java&lt;com.letao.rest.service{ContentService.java[ContentService" modifiers="513" timestamp="1492089078572"/>
+<typeInfo handle="=letao-portal/src\/main\/java&lt;com.letao.portal.service{ContentService.java[ContentService" modifiers="513" timestamp="1492092069113"/>
+<typeInfo handle="=letao-rest/src\/main\/java&lt;com.letao.rest.redis.dao{JedisClient.java[JedisClient" modifiers="513" timestamp="1493129883759"/>
+<typeInfo handle="=letao-rest/src\/main\/java&lt;com.letao.rest.service{RedisService.java[RedisService" modifiers="513" timestamp="1493388199618"/>
+<typeInfo handle="=letao-search/src\/main\/java&lt;com.letao.search.service{ItemService.java[ItemService" modifiers="513" timestamp="1493788841907"/>
+<typeInfo handle="=letao-search/src\/main\/java&lt;com.letao.search.dao{SearchDao.java[SearchDao" modifiers="513" timestamp="1493873653169"/>
+<typeInfo handle="=letao-search/src\/main\/java&lt;com.letao.search.service{SearchService.java[SearchService" modifiers="513" timestamp="1493887347977"/>
+<typeInfo handle="=letao-manager-pojo/src\/main\/java&lt;com.letao.pojo{TbItem.java[TbItem" modifiers="1" timestamp="1489592112544"/>
+<typeInfo handle="=letao-portal/src\/main\/java&lt;com.letao.portal.service{ItemService.java[ItemService" modifiers="513" timestamp="1494399127682"/>
+</typeInfoHistroy>

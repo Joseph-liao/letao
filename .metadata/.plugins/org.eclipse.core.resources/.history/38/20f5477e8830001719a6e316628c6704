@@ -1,0 +1,75 @@
+/******************************************************************
+ *
+ *    Java Lib For Android, Powered By Shenzhen Jiuzhou.
+ *
+ *    Copyright (c) 2001-2014 Digital Telemedia Co.,Ltd
+ *    http://www.d-telemedia.com/
+ *
+ *    Package:     com.letao.search.dao.Impl
+ *
+ *    Filename:    SearchDaoImpl.java
+ *
+ *    Description: TODO(用一句话描述该文件做什么)
+ *
+ *    Copyright:   Copyright (c) 2001-2014
+ *
+ *    Company:     Digital Telemedia Co.,Ltd
+ *
+ *    @author:     廖永乐
+ *
+ *    @version:    1.0.0
+ *
+ *    Create at:   2017年5月4日 下午12:56:52
+ *
+ *    Revision:
+ *
+ *    2017年5月4日 下午12:56:52
+ *        - first revision
+ *
+ *****************************************************************/
+package com.letao.search.dao.Impl;
+
+import org.apache.solr.client.solrj.SolrQuery;
+import org.apache.solr.client.solrj.SolrServer;
+import org.apache.solr.client.solrj.response.QueryResponse;
+import org.apache.solr.common.SolrDocument;
+import org.apache.solr.common.SolrDocumentList;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.letao.search.dao.SearchDao;
+import com.letao.search.pojo.SearchResult;
+
+
+/**
+ * @ClassName SearchDaoImpl
+ * @Description TODO(这里用一句话描述这个类的作用)
+ * @author 廖永乐
+ * @Date 2017年5月4日 下午12:56:52
+ * @version 1.0.0
+ */
+public class SearchDaoImpl implements SearchDao {
+    
+    @Autowired
+    private SolrServer solrServer;
+
+    /* (非 Javadoc)
+     * Description:
+     * @see com.letao.search.dao.SearchDao#search(org.apache.solr.client.solrj.SolrQuery)
+     */
+    @Override
+    public SearchResult search(SolrQuery query) throws Exception {
+        //创建返回结果对象
+        SearchResult result =new SearchResult();
+        //根据查询条件返回结果
+        QueryResponse response = solrServer.query(query);
+        SolrDocumentList documentList = response.getResults();
+        //设置返回结果数
+        result.setRecordCount(documentList.getNumFound());
+        for (SolrDocument solrDocument : documentList) {
+            
+        }
+        
+        return null;
+    }
+
+}
