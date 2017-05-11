@@ -1,0 +1,11 @@
+com\letao\mapper\TbUserMapper.class
+com\letao\mapper\TbOrderShippingMapper.class
+com\letao\mapper\TbItemCatMapper.class
+com\letao\mapper\TbItemDescMapper.class
+com\letao\mapper\TbOrderItemMapper.class
+com\letao\mapper\TbOrderMapper.class
+com\letao\mapper\TbContentMapper.class
+com\letao\mapper\TbItemParamItemMapper.class
+com\letao\mapper\TbItemParamMapper.class
+com\letao\mapper\TbContentCategoryMapper.class
+com\letao\mapper\TbItemMapper.class

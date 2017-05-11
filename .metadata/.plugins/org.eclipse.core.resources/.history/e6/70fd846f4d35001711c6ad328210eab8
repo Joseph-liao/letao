@@ -1,0 +1,55 @@
+/******************************************************************
+ *
+ *    Java Lib For Android, Powered By Shenzhen Jiuzhou.
+ *
+ *    Copyright (c) 2001-2014 Digital Telemedia Co.,Ltd
+ *    http://www.d-telemedia.com/
+ *
+ *    Package:     com.letao.portal.service.impl
+ *
+ *    Filename:    ItemServiceImpl.java
+ *
+ *    Description: TODO(用一句话描述该文件做什么)
+ *
+ *    Copyright:   Copyright (c) 2001-2014
+ *
+ *    Company:     Digital Telemedia Co.,Ltd
+ *
+ *    @author:     廖永乐
+ *
+ *    @version:    1.0.0
+ *
+ *    Create at:   2017年5月10日 下午2:52:31
+ *
+ *    Revision:
+ *
+ *    2017年5月10日 下午2:52:31
+ *        - first revision
+ *
+ *****************************************************************/
+package com.letao.portal.service.impl;
+
+import com.letao.portal.pojo.ItemInfo;
+import com.letao.portal.service.ItemService;
+
+
+/**
+ * @ClassName ItemServiceImpl
+ * @Description TODO(这里用一句话描述这个类的作用)
+ * @author 廖永乐
+ * @Date 2017年5月10日 下午2:52:31
+ * @version 1.0.0
+ */
+public class ItemServiceImpl implements ItemService {
+
+    /* (非 Javadoc)
+     * Description:
+     * @see com.letao.portal.service.ItemService#getItemById(java.lang.Long)
+     */
+    @Override
+    public ItemInfo getItemById(Long itemId) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;letao-portal/src/main/java/com.letao.portal.pojo&apos;&#x0D;&#x0A;- Original project: &apos;letao-common&apos;&#x0D;&#x0A;- Destination element: &apos;letao-portal/src/main/java/com.letao.portal.pojo&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.letao.common.pojo.Item.java&#x0D;&#x0A;     com.letao.common.pojo.LetaoResult.java" description="Copy compilation units" destination="=letao-portal/src\/main\/java&lt;com.letao.portal.pojo" element1="/src\/main\/java&lt;com.letao.common.pojo{Item.java" element2="/src\/main\/java&lt;com.letao.common.pojo{LetaoResult.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1494162460972" units="2" version="1.0"/>
+</session>

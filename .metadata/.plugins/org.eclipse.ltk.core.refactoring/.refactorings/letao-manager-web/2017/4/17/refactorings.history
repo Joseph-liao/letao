@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;letao-manager-web/src/main/resources/resource/redis.properties&apos; to &apos;resource.properties&apos;" description="Rename resource &apos;redis.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/resource/redis.properties" name="resource.properties" stamp="1493131332205" updateReferences="true"/>
+</session>
